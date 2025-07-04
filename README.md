@@ -1,12 +1,33 @@
-# React + Vite
+# 🧑‍💼 Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A role-based task management web app for admins and employees.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Role-based login (Admin / Employee)
+- Assign tasks to employees
+- Track task status: New, Accepted, Completed, Failed
+- LocalStorage-based data persistence
+- Responsive UI with Tailwind CSS
+- Notifications using React Toastify
 
-## Expanding the ESLint configuration
+## 👥 Demo Login
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Admin Login:**
+- Email: `admin@example.com`
+- Password: `admin123`
+
+**Employee Login:**
+- Email: `employee@example.com`
+- Password: `emp123`
+
+## 🔗 Live Demo
+
+[Live Website](https://krishsoni01.github.io/Employee-management)
+
+## 🛠 Tech Stack
+
+- React
+- Context API
+- Tailwind CSS
+- React Toastify
