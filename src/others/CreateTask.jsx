@@ -20,8 +20,8 @@ const CreateTask = () => {
       return;
     }
 
-    let userSearching = userData.find((user)=>{user.firstName === employee});
-    if(!userSearching){
+    let userSearching = userData.find((user) => user.firstName === employee);
+    if (!userSearching) {
       toast.error("Employee Not Found!");
       return;
     }
