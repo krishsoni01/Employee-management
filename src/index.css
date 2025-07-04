@@ -1,0 +1,18 @@
+@import "tailwindcss";
+body{
+    font-family: "Poppins", sans-serif;
+    color:white;
+    box-sizing: border-box;
+}
+
+.Toastify__toast {
+  max-width: 90vw;     
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .Toastify__toast {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+}
