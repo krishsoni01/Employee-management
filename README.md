@@ -15,11 +15,11 @@ A role-based task management web app for admins and employees.
 
 **Admin Login:**
 - Email: `admin@example.com`
-- Password: `admin123`
+- Password: `123`
 
 **Employee Login:**
-- Email: `employee@example.com`
-- Password: `emp123`
+- Email: `employee5@example.com`
+- Password: `123`
 
 ## 🔗 Live Demo
 
